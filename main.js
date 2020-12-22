@@ -11,8 +11,5 @@ let randActions = actions[Math.floor(Math.random() * actions.length)]
 let randPreferences = preferences[Math.floor(Math.random() * preferences.length)]
 let randPlaces = places[Math.floor(Math.random()* places.length)]
 
-
-//test to Node
-console.log(fairytaleCreatures)
-console.log(randCreature)
-console.log(randActions)
+//Create random messages
+console.log(`Every ${randCreature} ${randPreferences} ${randActions} ${randPlaces}.`)
