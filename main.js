@@ -8,10 +8,8 @@ const messagePieces = {
 }
 
 //Choose random element from each array
-const randomMessage = (array) => {
-const randArray = array[Math.floor(Math.random() * array.length)]
-    return randArray;
-}
+const randomMessage = (array) => 
+  array[Math.floor(Math.random() * array.length)];
 
 //Assemble the message pieces into the final message
 const assembleMessage = () => {
